@@ -18,7 +18,7 @@ app.use(express.json());
 app.use(morgan("dev"));
 app.use(cors(
   {
-    origin: 'http://localhost:5173',
+    origin: 'https://frontend-self-gamma.vercel.app',
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   }
